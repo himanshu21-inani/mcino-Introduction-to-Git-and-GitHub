@@ -1,0 +1,43 @@
+# Task 6: Forked Repository Verification
+# This file contains the curl command and its terminal output showing that
+# the repository has been successfully forked from
+# ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+# NOTE: Replace <YOUR_USERNAME> with your actual GitHub username below.
+
+# Curl command to check the forked repository:
+curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR_GITHUB_TOKEN>" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/<YOUR_USERNAME>/mcino-Introduction-to-Git-and-GitHub
+
+# Expected terminal output (example):
+# {
+#   "id": 123456789,
+#   "node_id": "R_kgDO...",
+#   "name": "mcino-Introduction-to-Git-and-GitHub",
+#   "full_name": "<YOUR_USERNAME>/mcino-Introduction-to-Git-and-GitHub",
+#   "private": false,
+#   "owner": {
+#     "login": "<YOUR_USERNAME>",
+#     "id": 987654321,
+#     ...
+#   },
+#   "html_url": "https://github.com/<YOUR_USERNAME>/mcino-Introduction-to-Git-and-GitHub",
+#   "description": "...",
+#   "fork": true,
+#   "source": {
+#     "id": 111222333,
+#     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+#     ...
+#   },
+#   ...
+# }
+
+# The "fork": true field and the "source" object pointing to
+# ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+# confirm that your repository has been successfully forked.
+
+# Public GitHub repository URL (replace with your actual URL):
+# https://github.com/<YOUR_USERNAME>/mcino-Introduction-to-Git-and-GitHub

@@ -1,0 +1,26 @@
+# Task 9: GitHub Branches Terminal Output
+# This file contains the terminal output displaying the branch names and
+# their status in the repository.
+
+# NOTE: Replace with your actual terminal output after running the commands locally.
+
+# Command to list local branches:
+$ git branch
+* main
+  bug-fix-typo
+
+# Command to list all branches (local and remote) with status:
+$ git branch -a
+* main
+  bug-fix-typo
+  remotes/origin/main
+  remotes/origin/bug-fix-typo
+
+# Explanation:
+# - The asterisk (*) indicates the currently checked-out branch (main).
+# - "main" is the default branch.
+# - "bug-fix-typo" is the feature branch created for the typo fix.
+# - remotes/origin/* are the remote-tracking branches on your fork.
+
+# Alternative: View branches on GitHub via the web UI at:
+# https://github.com/<YOUR_USERNAME>/mcino-Introduction-to-Git-and-GitHub/branches

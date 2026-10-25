@@ -14,5 +14,5 @@ This repository contains the final project for the Introduction to Git and GitHu
 * LICENSE - Apache 2.0 license
 * CODE\_OF\_CONDUCT - Community code of conduct
 * CONTRIBUTING.md - Contribution guidelines
-* simple-interest.sh - Bash script to compute simple interest
+* simple-interest.sh - Bash script to compute simple interest.
 

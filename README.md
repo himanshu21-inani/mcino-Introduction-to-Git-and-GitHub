@@ -19,4 +19,5 @@ Simple Interest = (p * t * r) / 100
 * CODE_OF_CONDUCT.md - Community code of conduct
 * CONTRIBUTING.md - Contribution guidelines
 * simple-interest.sh - Bash script to compute simple interest.
+* Fix: updated on bug-fix-typo branch for final project merge demonstration.
 
